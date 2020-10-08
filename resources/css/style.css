@@ -1,0 +1,118 @@
+.{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html{
+    background-color: aliceblue;
+    color: #5d5d5d;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+    
+}
+/*HEADER - - - - - -*/
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(css_images/cravings.jpg);
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+}
+h1{
+    margin-top: 10;
+    margin-bottom: 30px;
+    
+    padding-bottom: 10px;
+    padding-top: 200px;
+    color: #fff;
+    font-size:240%; 
+    
+    text-transform: capitalize;
+    word-spacing: 3px;
+}
+
+.craving-text{
+    position: absolute;
+    font-weight: 500;
+    width: 1140px;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+
+.ezlogo{
+    float: left;
+    padding-left: 100px;
+    image-resolution: from-image
+    width: auto;
+    margin: auto;
+    padding-bottom: 100px;
+    height: auto;
+    
+}
+.main-nav{
+    float: right
+
+    list-style: disc;
+    
+    
+}
+
+.main-nav li{
+    display: inline-block;
+    margin-left: 40px;
+    float: right;
+         margin-top: 30px;
+    padding-right: 10px;
+    color: white;
+}
+
+.main-nav li a{
+    text-decoration: none;
+    color: white;
+     margin-top: 30px;
+    
+    text-transform: uppercase;
+    font-weight: 100;
+    
+    float: right
+    
+}
+.main-nav li a:hover{
+    color: #e67e22;
+  font-style: italic;
+}
+/*BUTTONS --------------------*/
+
+.btn{
+    display: inline-block;
+    padding: 10px 50px;
+     
+    font-weight: 300;
+    
+    text-decoration: none;
+    border-radius: 200px;
+    color: #fff;  
+    
+}
+
+.btn:hover{
+    background-color: #cf6d17;
+    font-size: 25px;
+    
+}
+.btn-full{
+    background-color: #e67e22;
+}
+.btn-ghost{
+    border: 1px solid #e67e22;
+    background-color: #e67e22;
+}
