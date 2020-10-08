@@ -45,13 +45,13 @@ h1{
     width: 1140px;
     top:50%;
     left: 50%;
-    transform: translate(-50%,-50%)
+    transform: translate(-50%,-50%);
 }
 
 .ezlogo{
     float: left;
     padding-left: 100px;
-    image-resolution: from-image
+    image-resolution: from-image;
     width: auto;
     margin: auto;
     padding-bottom: 100px;
@@ -59,11 +59,8 @@ h1{
     
 }
 .main-nav{
-    float: right
-
+    float: right;
     list-style: disc;
-    
-    
 }
 
 .main-nav li{
